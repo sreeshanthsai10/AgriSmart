@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 //import { getMarketPrices } from '../api/marketApi';
 
 // Target Endpoint using the sample API
-const API_KEY = '579b464db66ec23bdd0000010c38b448f2ac47d064eed261bf64d0b4';
-const BASE_URL = 'https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070';
+const API_KEY = '';
+const BASE_URL = 'https://api.data.gov.in/resource/';// go to website for api key
 
 const INDIAN_STATES = [
     "Andaman and Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar",

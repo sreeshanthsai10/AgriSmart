@@ -1,0 +1,15 @@
+
+const morgan = require('morgan');
+const fs = require('fs');
+const path = require('path');
+
+const logStream = fs.createWriteStream(
+    path.join(__dirname, '../../access.log'),
+    { flags: 'a' }
+);
+
+const logger = process.env.NODE_ENV === 'development'
+    ? morgan('dev')
+    : morgan('combined', { stream: logStream });
+
+module.exports = logger;

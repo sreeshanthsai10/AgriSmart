@@ -2,6 +2,8 @@
 
 AgriSmart is a complete, production-ready full-stack web application designed for farmers, buyers, and administrators. It features farm management, crop and yield predictions using Machine Learning, a live market dashboard, an offline store locator using geospatial queries, and multilingual AI chat capabilities.
 
+Demo video Link :https://youtu.be/hofZGkoaFFA
+
 ## Architecture
 
 *   **Frontend**: React (Vite), Tailwind CSS, React-Leaflet, Axios.
